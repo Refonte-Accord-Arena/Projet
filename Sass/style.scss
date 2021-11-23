@@ -12,6 +12,72 @@ $gradientTitle: linear-gradient(90deg, #2B2D42 0%, #045D62 100%);
 $marginDesktop : 120px;
 $marginMobile : 60px;
 /*Font Family*/
-$fontTitre : "Staastliches";
+$fontTitre : "Staatliches";
 $fontText : "Raleway";
 
+/*---------GENERALE--------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*Compossants*/
+.buttonPrimary{
+    background-color: $rouge;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    color: $blanc;
+    font-family: $fontText;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4%;
+    transition: background-color .3s ease-in-out;
+}
+.buttonPrimary:hover{
+    background-color: $rougeHover;
+}
+.color{
+    color: $rouge;
+}
+/*-----HEADER-----*/
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 70vh;
+    h1{
+        font-family: $fontTitre;
+        font-size: 20px;
+        line-height: 120%;
+        color: $bleu;
+        font-weight: 300;
+    }
+    h2{
+        font-family: $fontText;
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $bleu;
+        margin: 15px 0 60px;
+    }
+    #logo{
+        position: fixed;
+    }
+    .logo{
+        top: 40px;
+        width: 100px;
+    }
+    .scrolled{
+        top: 10px;
+        width: 50px;
+    }
+}
+div{
+    height: 200vh;
+    background-color: burlywood;
+}

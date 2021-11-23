@@ -1,3 +1,78 @@
+/*-------VARIABLES--------*/
+/*Couleurs*/
+/*Marges*/
+/*Font Family*/
+/*---------GENERALE--------*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+/*Compossants*/
+.buttonPrimary {
+  background-color: #D03423;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #FDFFFF;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 4%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttonPrimary:hover {
+  background-color: #972215;
+}
+
+.color {
+  color: #D03423;
+}
+
+/*-----HEADER-----*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 70vh;
+}
+header h1 {
+  font-family: "Staatliches";
+  font-size: 20px;
+  line-height: 120%;
+  color: #2B2D42;
+  font-weight: 300;
+}
+header h2 {
+  font-family: "Raleway";
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2B2D42;
+  margin: 15px 0 60px;
+}
+header #logo {
+  position: fixed;
+}
+header .logo {
+  top: 40px;
+  width: 100px;
+}
+header .scrolled {
+  top: 10px;
+  width: 50px;
+}
+
+div {
+  height: 200vh;
+  background-color: burlywood;
+}
 
 /*# sourceMappingURL=style.css.map */
