@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accor Arena</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><strong class="color">Artiste</strong> • Vos artistes favoris</h1>
+        <h2>Découvrez toute la<br>programation</h2>
+        <a href="#" class="buttonPrimary">Tous nos events</a>
+        <img id="logo" class="logo" src="./media/Logo.svg" alt="">
+    </header>
+    <div id="main">
+        <div id="artist-hero">
+            <h4>Nom artiste / groupe</h4>
+        </div>  
+
+        <div class="artist-options">
+            <div class="artist-btns">
+                <a href="#" class="return" title="retour à la programmation"><i class="fas fa-chevron-left"></i></a>
+                <div class="share" id="btn-share">
+                    <span class="open" onclick="toggleBtn()"></span>
+                    <a href="https://www.facebook.com/AccorArena/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/accor_arena?lang=fr"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-link"></i></a>                </div>
+            </div>
+            <a href="#" class="buttonPrimary artist-resa">Réserver</a>
+        </div>
+
+        <div class="about">
+            <div class="about-pres">
+                <div class="about-txt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus amet maxime dicta obcaecati ad necessitatibus distinctio natus adipisci blanditiis illum reprehenderit, odio fugiat totam aperiam nostrum consequatur nemo cumque repudiandae?
+                    <br/><br/>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident atque! Optio nobis nisi voluptates tempore quae, provident consectetur? Mollitia, neque rem aliquam dicta doloribus quo voluptate placeat reiciendis id?
+                </div>
+                <div class="about-date">JJ mois AAAA</div>
+            </div>
+            <div class="about-bann" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/01/14/51/concert-2566002_960_720.jpg');"></div>
+        </div>
+        
+        <div class="spotify">
+
+            <h3><strong class="color">A</strong>rtiste sur Spotify</h3>
+
+            <div class="spotify-list">
+                <a href="#" class="spotify-item" style="background-color: rgb(63, 81, 181);">
+                    <div class="album">
+                        <div class="img-container"><img src="http://placekitten.com/g/100" alt="album1"/></div>
+                        <span>Titre de <strong>Album</strong></span>
+                    </div>
+                    <i class="fab fa-spotify"></i>
+                </a>
+                <a href="#" class="spotify-item" style="background-color: rgb(0, 188, 212);">
+                    <div class="album">
+                        <div class="img-container"><img src="http://placekitten.com/g/100" alt="album2"/></div>
+                        <span>Titre de <strong>Album</strong></span>
+                    </div>
+                    <i class="fab fa-spotify"></i>
+                </a>
+                <a href="#" class="spotify-item" style="background-color: rgb(227,106,10);">
+                    <div class="album">
+                        <div class="img-container"><img src="http://placekitten.com/g/100" alt="album3"/></div>
+                        <span>Titre de <strong>Album</strong></span>
+                    </div>
+                    <i class="fab fa-spotify"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="events-reco">
+            
+            <h3><strong class="color">N</strong>os autres événements</h3>
+
+            <div class="events-list">
+                <div class="events-item">
+                    <a class="buttonPrimary resa" href="#">Réserver</a>
+                    <div class="event-infos" style="background-image: url('https://i.pinimg.com/564x/bb/e4/3d/bbe43d8cf712a7755957d0589c9df5c1.jpg');">
+                        <span>Artiste - XX mois XXXX</span>
+                    </div>
+                </div>
+                <div class="events-item">
+                    <a class="buttonPrimary resa" href="#">Réserver</a>
+                    <div class="event-infos" style="background-image: url('https://i.pinimg.com/564x/44/07/41/440741a087a298bc52e242e73f8c1bc5.jpg');">
+                        <span>Artiste - XX mois XXXX</span>
+                    </div>
+                </div>
+                <div class="events-item">
+                    <a class="buttonPrimary resa" href="#">Réserver</a>
+                    <div class="event-infos" style="background-image: url('https://i.pinimg.com/564x/6e/f6/76/6ef67635c399192d09bc173507110c41.jpg');">
+                        <span>Artiste - XX mois XXXX</span>
+                    </div>
+                </div>
+                <div class="events-item">
+                    <a class="buttonPrimary resa" href="#">Réserver</a>
+                    <div class="event-infos" style="background-image: url('https://i.pinimg.com/564x/67/60/bd/6760bd16c906dae340e34b40b5edab88.jpg');">
+                        <span>Artiste - XX mois XXXX</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="buttonPrimary all">Découvrir tous nos événements</a>
+
+        </div>
+        
+        
+
+        
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
